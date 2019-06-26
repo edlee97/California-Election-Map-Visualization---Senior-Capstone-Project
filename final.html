@@ -1,0 +1,33 @@
+<!--Edward Lee, elee44-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+		<title> EDWARD LEE FINAL PROJECT - CMPS 161 WINTER 2019 </title>
+		<!--Gather scripts and css from the local directory-->
+		<link rel="stylesheet" href="local/leaflet.css"/>
+		<script src="local/leaflet.js"></script>
+		<script src="local/leaflet-heat.js"></script>
+		<script src="local/leaflet-rotatedMarker.js"></script>
+		<script src="local/leaflet-easyButton.js"></script>
+		<script src="local/leaflet.ajax.min.js"></script>
+        <script src="local/d3.v3.min.js"></script>
+		<!--Set styles for the text boxes in the map-->
+		<style>.countyInfo { padding: 6px 8px; font: 16px Helvetica, sans-serif; background: white; background:
+		rgba(255,255,255,0.8); box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 5px; } .info h4 { margin: 0 0 5px; color: #777; }
+		.legend { padding: 6px 8px; font: 14px Helvetica, sans-serif; background: white; background:
+		rgba(255,255,255,0.8); box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 5px; } .info h4 { margin: 0 0 5px; color: #777; }
+		.selection { padding: 6px 8px; font: 12px Helvetica, sans-serif; background: white; background:
+		rgba(255,255,255,0.8); box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 5px; } .info h4 { margin: 0 0 5px; color: #777; }
+		</style>
+    </head>
+	
+    <body>
+	    <!--Set map size and add the main script-->
+	    <div id="map" style="width: 900px; height: 900px"></div>
+		<script src="local/voteLayer.js"></script>
+        <script src="local/finalscript.js"></script>
+		<script src="local/finalscriptfunctions.js"></script>
+		<script src="local/finalscriptopinions.js"></script>
+    </body>
+</html>
